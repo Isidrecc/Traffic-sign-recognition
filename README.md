@@ -19,9 +19,10 @@ ROUND 2 --> Seguimos al pie de la letra el artículo de W.A y aplicamos un prime
 EL ARTÍCULO 1 DE W.A. LLEGA HASTA AQUÍ. A PARTIR DE ESTE PUNTO HEMOS TENIDO QUE UTILIZAR EL MATERIAL DE SU CONFERENCIA
 
 
-ROUND 3 --> Repetimos el M! pero esta vez lo programos en clases y analizamos los pesos de la capa. Vemos que hay algunas categorias que tienen mucho acierto y otras que muy poco. HAY CATEGORIAS MUY REPRESENTADAS Y OTRAS MUY POCO REPRESENTADAS.
-En el M2 simplemente mejoramos el M1 utilizando minibatches (para minimizar el tema de la subrepresentación) y Leaky Relu. Obtenemos una precisión del 70-75%.
+ROUND 3 --> Repetimos el M! pero esta vez lo programos en clases y analizamos los pesos de la capa. Vemos que hay algunas categorias que tienen mucho acierto y otras que muy poco. HAY CATEGORIAS MUY REPRESENTADAS Y OTRAS MUY POCO REPRESENTADAS.  
+En el M2 simplemente mejoramos el M1 utilizando minibatches (para minimizar el tema de la subrepresentación) y Leaky Relu. Obtenemos una precisión del 70-75%.  
 En el M3 creamos la primera deep net, con tres capas FC de 200, 100 y 62. Obtenemos una precisión del 93%.
 
 
-ROUND 4 --> M4 será la primera convolutional neural net. 
+ROUND 4 --> M4 será la primera convolutional neural net. Aplicaremos el siguient esquema con tres capas: [CONV1-POOL]-[CONV2-POOL]-[CONV3-POOL]-FC
+En un primer análisis del código de W.A. parece que las dimensiones que el annota son erróneas.
