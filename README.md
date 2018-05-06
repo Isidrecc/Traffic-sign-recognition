@@ -29,7 +29,7 @@ De momento llevo 2 CNN que me han dado resultados parecidos y estas son las conc
     Todo esto me induce a pensar que el código pueda estar mal, y que haya un error. 
     Como él mismo dice en deep learning es muy difícil saber si hay un error porque el modelo te da resultados pero no tienes forma fácil de saber si eso es correcto.  
     
-+ VARIANCE o OVERFITTING --> REGULARICACIÓN  
++ VARIANCE o OVERFITTING --> REGULARIZACIÓN  
   Si tengo que seguir con esta línea lo primero que hay que hacer es intentar corregir el problema del overfitting.    
   Para ello hay muchas técnicas: dropout, early stopping, data augmentation  
   
