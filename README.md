@@ -47,5 +47,5 @@ De momento llevo 2 CNN que me han dado resultados parecidos y estas son las conc
   
 + GERMAN DATASET  
   Hay un segundo dataset que aún no he tocado, el german dataset.  
-  Tengo un artículo parecido al de W.A : https://navoshta.com/traffic-signs-classification/ y también un repositoria en github.
+  Tengo un artículo parecido al de W.A : https://navoshta.com/traffic-signs-classification/ y también un repositorio en github.
   Puede ser una buena solución para el data augmentation que necesito para corregir la variance del belgium dataset
