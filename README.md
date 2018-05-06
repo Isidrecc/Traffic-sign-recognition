@@ -27,15 +27,15 @@ De momento llevo 2 CNN que me han dado resultados parecidos y estas son las conc
     La segunda parte del artículo no está publicada y la he conseguido de una conferencia en youtube.  
     El hecho de que no esté publicada me da mala espina, ¿Si ya tiene el código escrito porque no publica el artículo?  
     Todo esto me induce a pensar que el código pueda estar mal, y que haya un error. 
-    Como el mismo dice en deep learning es muy dificil saber si hay un error porque el modelo te da resultados pero no tienes forma facil de saber si eso es correcto.  
+    Como él mismo dice en deep learning es muy difícil saber si hay un error porque el modelo te da resultados pero no tienes forma fácil de saber si eso es correcto.  
     
-+ VARIANCE o OVERFITTING --> REGULARITZATION  
++ VARIANCE o OVERFITTING --> REGULARICACIÓN  
   Si tengo que seguir con esta línea lo primero que hay que hacer es intentar corregir el problema del overfitting.    
   Para ello hay muchas técnicas: dropout, early stopping, data augmentation  
   
   
-+ OTHER APROACHES  
-  Existen muchos papers incluso una competición con el Belgium dataset. Podría probar de aplicar alguno de sus modelos.  
++ OTHER APPROACHES  
+  Existen muchos papers incluso una competición con el Belgium dataset. Podría probar a aplicar alguno de sus modelos.  
     - The German Traffic Sign Recognition Benchmark: A multi-class classification competition  
       https://www.researchgate.net/publication/224260296_The_German_Traffic_Sign_Recognition_Benchmark_A_multi-class_classification_competition
      - A committee of neural networks for traffic sign classification  
