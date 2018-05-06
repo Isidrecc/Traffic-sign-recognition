@@ -1,7 +1,7 @@
 # Traffic-sign-recognition
 Deep neural networks applied to traffic sign recognition on the Belgium dataset  
 
-+ WALEED ABDULLA
++ WALEED ABDULLA  
 Empiezo siguiendo los pasos del artículo de W.A. y de su conferencia.    
 https://medium.com/@waleedka/traffic-sign-recognition-with-tensorflow-629dffc391a6    
 https://www.youtube.com/watch?v=QHra6Xf6Mew&t=2268s    
@@ -35,14 +35,14 @@ De momento llevo 2 CNN que me han dado resultados parecidos y estas son las conc
   
   
 + OTHER APROACHES  
-  Existen muchos papers incluso una competición con el Belgium dataset. Podría probar de aplicar alguno de sus modelos.
-    - The German Traffic Sign Recognition Benchmark: A multi-class classification competition
+  Existen muchos papers incluso una competición con el Belgium dataset. Podría probar de aplicar alguno de sus modelos.  
+    - The German Traffic Sign Recognition Benchmark: A multi-class classification competition  
       https://www.researchgate.net/publication/224260296_The_German_Traffic_Sign_Recognition_Benchmark_A_multi-class_classification_competition
-     - A committee of neural networks for traffic sign classification
+     - A committee of neural networks for traffic sign classification  
       https://www.researchgate.net/publication/241191907_A_committee_of_neural_networks_for_traffic_sign_classification
-     - Multi-column deep neural network for traffic sign classification
+     - Multi-column deep neural network for traffic sign classification  
       https://www.sciencedirect.com/science/article/pii/S0893608012000524
-     - Traffic sign recognition with convolutional neural network based on max pooling positions
+     - Traffic sign recognition with convolutional neural network based on max pooling positions  
       https://cgi.csc.liv.ac.uk/~frans/PostScriptFiles/icnc-fskd_2016_MaxPooling.pdf
   
 + GERMAN DATASET  
