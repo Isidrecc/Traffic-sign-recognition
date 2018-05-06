@@ -25,7 +25,7 @@ De momento llevo 2 CNN que me han dado resultados parecidos y estas son las conc
 + ¿Puede que el model4 de W.A. esté mal?  
     Por un lado veo que las dimensiones de los INPUTS y OUTPUTS que ha anotado en su código están mal. (O ESO CREO YO)  
     La segunda parte del artículo no está publicada y la he conseguido de una conferencia en youtube.  
-    El echo de que no esté publicada me da mala espina, ¿Si ya tiene el código escrito porque no lo publica el artículo?  
+    El hecho de que no esté publicada me da mala espina, ¿Si ya tiene el código escrito porque no publica el artículo?  
     Todo esto me induce a pensar que el código pueda estar mal, y que haya un error. 
     Como el mismo dice en deep learning es muy dificil saber si hay un error porque el modelo te da resultados pero no tienes forma facil de saber si eso es correcto.  
     
