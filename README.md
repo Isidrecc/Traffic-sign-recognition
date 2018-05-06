@@ -10,7 +10,7 @@ IMAGES - CONV1 - POOL1 - CONV2 - POOL2 - CONV3 - POOL3 - FC1
 Con esto conseguimos una TRAIN ACCURACY=100% y una TEST ACCURACY=94,5%    
 Parece un claro caso de "over fitting"   
 
-+ CLASSICAL NEURAL NETS
++ CLASSICAL NEURAL NETS  
 Vamos a probar de aplicar las redes nuronales más conocidas y clásicas a nuestro caso  
   - LeNet-5  
     Aplicando este modelo obtenemos un 100% de precisión en el TRAIN set y un 93% en el TEST set.   
@@ -19,6 +19,9 @@ Vamos a probar de aplicar las redes nuronales más conocidas y clásicas a nuest
     
 
 De momento llevo 2 CNN que me han dado resultados parecidos y estas son las conclusiones a las que he llegado:  
+
+
+
 + ¿Puede que el model4 de W.A. esté mal?  
     Por un lado veo que las dimensiones de los INPUTS y OUTPUTS que ha anotado en su código están mal. (O ESO CREO YO)  
     La segunda parte del artículo no está publicada y la he conseguido de una conferencia en youtube.  
@@ -26,12 +29,12 @@ De momento llevo 2 CNN que me han dado resultados parecidos y estas son las conc
     Todo esto me induce a pensar que el código pueda estar mal, y que haya un error. 
     Como el mismo dice en deep learning es muy dificil saber si hay un error porque el modelo te da resultados pero no tienes forma facil de saber si eso es correcto.  
     
-+ VARIANCE o OVERFITTING --> REGULARITZATION
++ VARIANCE o OVERFITTING --> REGULARITZATION  
   Si tengo que seguir con esta línea lo primero que hay que hacer es intentar corregir el problema del overfitting.    
   Para ello hay muchas técnicas: dropout, early stopping, data augmentation  
   
   
-+ OTHER APROACHES
++ OTHER APROACHES  
   Existen muchos papers incluso una competición con el Belgium dataset. Podría probar de aplicar alguno de sus modelos.
     - The German Traffic Sign Recognition Benchmark: A multi-class classification competition
       https://www.researchgate.net/publication/224260296_The_German_Traffic_Sign_Recognition_Benchmark_A_multi-class_classification_competition
@@ -42,7 +45,7 @@ De momento llevo 2 CNN que me han dado resultados parecidos y estas son las conc
      - Traffic sign recognition with convolutional neural network based on max pooling positions
       https://cgi.csc.liv.ac.uk/~frans/PostScriptFiles/icnc-fskd_2016_MaxPooling.pdf
   
-+ GERMAN DATASET
++ GERMAN DATASET  
   Hay un segundo dataset que aún no he tocado, el german dataset.  
   Tengo un artículo parecido al de W.A : https://navoshta.com/traffic-signs-classification/ y también un repositoria en github.
   Puede ser una buena solución para el data augmentation que necesito para corregir la variance del belgium dataset
