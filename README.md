@@ -11,7 +11,7 @@ Con esto conseguimos una TRAIN ACCURACY=100% y una TEST ACCURACY=94,5%
 Parece un claro caso de "over fitting"   
 
 + BRANCH CLASSICAL NEURAL NETS  
-Vamos a probar de aplicar las redes nuronales más conocidas y clásicas a nuestro caso  
+Vamos a probar a aplicar las redes nuronales más conocidas y clásicas a nuestro caso  
   - LeNet-5  
     Aplicando este modelo obtenemos un 100% de precisión en el TRAIN set y un 93% en el TEST set.   
     Vemos que llegamos al 100% igual que en el artículo de W.A. pero en este caso la precisión en el TEST set es mucho menor.  
